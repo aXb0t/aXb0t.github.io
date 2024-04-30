@@ -10,6 +10,11 @@
     color: rgb(235, 213, 235);
 }
 
+/* welcome a links yellow */
+.welcome a {
+    color: hsl(50, 100%, 50%);
+}
+
 /* Adjusts to any size window <3 */
 
 :root {
