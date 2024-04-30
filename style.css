@@ -5,9 +5,9 @@
   }
 
 .welcome {
-    background-color: hsl(219, 79%, 66%);
-    opacity: 0.8;
-    color: hsl(60, 82%, 58%);
+    background-color: hsl(263, 87%, 9%);
+    opacity: .8;
+    color: rgb(235, 213, 235);
 }
 
 /* Adjusts to any size window <3 */
