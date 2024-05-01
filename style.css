@@ -15,6 +15,29 @@
     color: hsl(50, 100%, 50%);
 }
 
+@font-face {
+    font-family: 'Space Mono';
+    src: url('css/fonts/SpaceMono-Regular.woff2') format('woff2'),
+        url('css/fonts/SpaceMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* use custom font with all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+/*  use custom fonts with other text */
+p, li, dl {
+  font-family: 'Space Mono', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
 /* Adjusts to any size window <3 */
 
 :root {
